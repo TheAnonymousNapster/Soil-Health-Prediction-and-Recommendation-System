@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Nutrient Content</title>
+<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+
+<div class="container">
+<div class="py-5 text-center">
+        <h2>Nutrient Content</h2>
+        <p class="lead">Enter Nutrient Content and Upload Image</p>
+      </div>  
+<fieldset>
+  
+  <form name="frmContact" class="needs-validation " method="post" action="nutrient.php">
+    <p>
+      <label for="Nitrogen">Nitrogen </label>
+      <input type="text" class="form-control" name="txtName" id="txtName" placeholder="Nitrogen" value="" required>
+	  <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+    </p>
+    <p>
+      <label for="Phosphorus">Phosphorus</label>
+      <input type="text"  class="form-control"  name="txtEmail" id="txtEmail" placeholder="Phosphorus" value="" required>
+    </p>
+    <p>
+      <label for="Calcium">Calcium</label>
+      <input type="text"  class="form-control" name="txtPhone" id="txtPhone" placeholder="Calcium" value="" required>
+    </p>
+    <p>
+      <label for="pH">pH</label>
+      <input name="txtMessage" class="form-control"  id="txtMessage"  placeholder="pH" required>
+    </p>
+    <p>
+      <label for="Temperature">Temperature</label>
+      <input type="text"  class="form-control" name="txtTemp" id="txtTemp" placeholder="Temperature" value="" required>
+    </p>
+    <p>
+      <label for="Humidity">Humidity</label>
+      <input type="text"  class="form-control" name="txtHum" id="txtHum" placeholder="Humidity" value="" required>
+    </p>
+     <p>
+      <label for="Image">Image</label>
+      <input type="text"  class="form-control" name="txtImg" id="txtImg" placeholder="Upload Image Link" value="" required>
+    </p>
+    <p>&nbsp;</p>
+    <p>
+      <input type="submit" name="Submit" id="Submit" value="Submit Data"  class="btn btn-primary btn-lg btn-block">
+    </p>
+  </form>
+</fieldset>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
